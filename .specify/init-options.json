@@ -1,0 +1,9 @@
+{
+  "ai": "dsh",
+  "ai_skills": true,
+  "feature_numbering": "sequential",
+  "here": false,
+  "integration": "dsh",
+  "script": "ps",
+  "speckit_version": "1.0.7.dev0"
+}
