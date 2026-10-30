@@ -1,0 +1,65 @@
+[
+  {
+    "id": "ssiediust-main",
+    "title": "کانال انجمن علمی مهندسی صنایع",
+    "url": "https://t.me/ssiediust",
+    "type": "banner",
+    "theme": "teal-blue",
+    "imageSrc": "/image/logo-ssiediust 2.png",
+    "ariaLabel": "کانال اصلی تلگرام انجمن علمی مهندسی صنایع دانشگاه علم و صنعت ایران"
+  },
+  {
+    "id": "social-linkedin",
+    "title": "لینکدین",
+    "url": "https://linkedin.com/company/ssiediust",
+    "type": "compact",
+    "theme": "linkedin",
+    "iconName": "linkedin",
+    "ariaLabel": "صفحه رسمی لینکدین انجمن علمی مهندسی صنایع"
+  },
+  {
+    "id": "social-instagram",
+    "title": "اینستاگرام",
+    "url": "https://instagram.com/ssiediust",
+    "type": "compact",
+    "theme": "instagram",
+    "iconName": "instagram",
+    "ariaLabel": "صفحه رسمی اینستاگرام انجمن علمی مهندسی صنایع"
+  },
+  {
+    "id": "social-telegram",
+    "title": "تلگرام",
+    "url": "https://t.me/ssiediust",
+    "type": "compact",
+    "theme": "telegram",
+    "iconName": "telegram",
+    "ariaLabel": "کانال رسمی تلگرام انجمن علمی مهندسی صنایع"
+  },
+  {
+    "id": "ssiediust-jobs",
+    "title": "کانال جابز (جهت کاریابی و کارآموزی)",
+    "url": "https://t.me/ssiediust_jobs",
+    "type": "banner",
+    "theme": "teal-blue",
+    "imageSrc": "/image/photo_2022-10-29_19-48-07.jpg",
+    "ariaLabel": "کانال جابز جهت کاریابی و کارآموزی مهندسی صنایع"
+  },
+  {
+    "id": "ssiediust-iefm",
+    "title": "چنل پادکست IE FM",
+    "url": "https://t.me/IEFM_Podcast",
+    "type": "banner",
+    "theme": "crimson-purple",
+    "imageSrc": "/image/iefm.png",
+    "ariaLabel": "کانال پادکست تخصصی مهندسی صنایع IE FM"
+  },
+  {
+    "id": "ssiediust-achar",
+    "title": "کانال آچار صنایع",
+    "url": "https://t.me/Achar_sanaye",
+    "type": "banner",
+    "theme": "teal-blue",
+    "imageSrc": "/image/23441242341.png",
+    "ariaLabel": "کانال آموزشی و کاربردی آچار صنایع"
+  }
+]

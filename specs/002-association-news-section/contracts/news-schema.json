@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NewsItemsConfig",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "title", "url", "ariaLabel"],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^news-[a-z0-9-]+$"
+      },
+      "title": {
+        "type": "string",
+        "minLength": 10,
+        "maxLength": 150
+      },
+      "url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https://t\\.me/ssiediust/\\d+$"
+      },
+      "ariaLabel": {
+        "type": "string",
+        "minLength": 10
+      },
+      "date": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false
+  }
+}
