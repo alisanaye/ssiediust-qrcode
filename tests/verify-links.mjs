@@ -47,7 +47,7 @@ for (const item of links) {
 
   // asset validation
   if (item.imageSrc) {
-    const rawPath = item.imageSrc.replace(/^\//, "");
+    const rawPath = item.imageSrc.replace(/^\.?\//, "");
     const diskPath = path.join(rootDir, rawPath);
     const publicPath = path.join(rootDir, "public", rawPath);
     assert(

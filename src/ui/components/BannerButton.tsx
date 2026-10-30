@@ -7,6 +7,17 @@ export interface BannerButtonProps {
   item: LaunchpadItem;
 }
 
+const getAssetUrl = (src: string): string => {
+  if (src.startsWith("http://") || src.startsWith("https://") || src.startsWith("data:")) {
+    return src;
+  }
+  const cleanPath = src.replace(/^\.?\//, "");
+  const base = import.meta.env.BASE_URL.endsWith("/")
+    ? import.meta.env.BASE_URL
+    : `${import.meta.env.BASE_URL}/`;
+  return `${base}${cleanPath}`;
+};
+
 export const BannerButton: React.FC<BannerButtonProps> = ({ item }) => {
   return (
     <AnchorOrButton
@@ -22,7 +33,7 @@ export const BannerButton: React.FC<BannerButtonProps> = ({ item }) => {
       {item.imageSrc && (
         <div className="banner-badge">
           <img
-            src={item.imageSrc}
+            src={getAssetUrl(item.imageSrc)}
             alt={item.title}
             className="banner-badge-img"
             loading="lazy"

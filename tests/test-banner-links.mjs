@@ -26,7 +26,7 @@ for (const id of requiredBannerIds) {
   assert(item.url.startsWith("https://t.me/"), `Expected telegram channel URL for ${id}, got ${item.url}`);
   assert(item.imageSrc, `Banner ${id} must specify an imageSrc`);
 
-  const rawPath = item.imageSrc.replace(/^\//, "");
+  const rawPath = item.imageSrc.replace(/^\.?\//, "");
   const filePath = path.join(rootDir, "public", rawPath);
   assert(fs.existsSync(filePath), `Image file missing: ${filePath}`);
 }
